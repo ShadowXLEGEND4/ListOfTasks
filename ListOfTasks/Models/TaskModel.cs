@@ -11,5 +11,6 @@ namespace ListOfTasks.Models
         [DataType(DataType.DateTime)]
         public DateTime DeadLine { get; set; }
         public string TaskDesc { get; set; }
+        public int TaskListId { get; set; }
     }
 }
